@@ -1,0 +1,3 @@
+./stop
+mv playback.error playback.error2
+mpg123 -v --loop -1 --stereo --no-resync http://stream.musicfm.hu:8000/musicfm.mp3 2>> playback.error

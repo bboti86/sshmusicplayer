@@ -1,0 +1,9 @@
+#!/bin/bash
+now="$(date +"%H")"
+
+if (( "$now" < "10" )); then
+	./play_1
+else
+	./play_music
+fi
+
